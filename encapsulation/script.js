@@ -12,9 +12,9 @@ console.log(Code())
 //Encapsulation method in OOP
 
 let objVar = {
-  a: 'Stephany',
+  a: 'Stephany', //a  is a property as it is used to hold values.
   b: 'knows coding',
-  code: function(){
+  code: function(){ // code is a method is used to defined logic.
   return this.a + " " + this.b}
   
   }
